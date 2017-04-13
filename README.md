@@ -9,7 +9,9 @@ Available from 3 to 8 buttons.
 
 ###### ++ Work in progress for more features ++
 
+<div style="width:300px;">
 ![Screenshot](/floader.gif)
+</div>
 
 ## Installation
 
