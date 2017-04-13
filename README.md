@@ -13,7 +13,8 @@ Available from 3 to 8 buttons.
 
 ## Installation
 
-`With pod`
+add the Pod `JCircularMenu` to your podfile
+
 
 ## Creation
 

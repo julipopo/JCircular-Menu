@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = 'CircularMenu'
+  s.name             = 'JCircularMenu'
   s.version          = '0.1.0'
   s.summary          = 'Circular menu interactive, customizable in color, buttons, and actions delegate'
 
