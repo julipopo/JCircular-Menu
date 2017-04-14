@@ -13,7 +13,7 @@ Circular menu interactive, customizable in color, buttons, and actions delegate.
   s.source           = { :git => 'https://github.com/julipopo/JCircular-Menu.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
-  s.source_files = 'JCircularMenu/CircularMenu.swift'
-  s.resources = 'JCircularMenu/Assets.xcassets'
+  s.source_files = 'JCircularMenu/JCircularMenu/CircularMenu.swift'
+  s.resources = 'JCircularMenu/JCircularMenu/Assets.xcassets'
 
 end
