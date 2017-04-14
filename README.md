@@ -41,7 +41,7 @@ menu.addButton(title: "Cardio", imageName: "icon_cardio")
 menu.addButton(title: "Path", imageName: "icon_path")
 menu.addButton(title: "Medecin", imageName: "icon_medecin")
 ```
-- Step 3 : add it to the view :
+- Step 4 : add it to the view :
 ```  swift-3
 view.addSubview(menu)
 ```
