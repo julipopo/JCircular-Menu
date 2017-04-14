@@ -9,15 +9,15 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    var circularMenu =  CircularMenu()
+    
+    var circularMenu =  JCircularMenu()
     
     @IBOutlet var centerLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        circularMenu = CircularMenu(inView: view, withColor: UIColor(red: 41/255, green: 128/255, blue : 185/255, alpha: 1.0))
+        circularMenu = JCircularMenu(inView: view, withColor: UIColor(red: 41/255, green: 128/255, blue : 185/255, alpha: 1.0))
         
         circularMenu.delegate = self
         
@@ -35,16 +35,16 @@ class ViewController: UIViewController {
     
 }
 
-extension ViewController: CircularMenuDelegate {
+extension ViewController: JCircularMenuDelegate {
     
-    func circularMenuDidSelect(atIndex index: Int) {
+    func jcircularMenuDidSelect(atIndex index: Int) {
         
         if let label = circularMenu.buttons[index].subviews[1] as? UILabel {
             centerLabel.text = label.text
         }
     }
     
-    func circularMenuDidOpen() {
+    func jcircularMenuDidOpen() {
         print("OPEN")
     }
     

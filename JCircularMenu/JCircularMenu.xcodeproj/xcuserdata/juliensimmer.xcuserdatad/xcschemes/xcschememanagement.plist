@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>CircularMenu.xcscheme</key>
+		<key>JCircularMenu.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>28377ED31E7F0D74008F4022</key>
+		<key>284232731EA1620800452BAE</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  CircularMenu
+//  JCircularMenu
 //
-//  Created by Julien Simmer  on 19/03/2017.
+//  Created by Julien Simmer  on 14/04/2017.
 //  Copyright © 2017 Julien Simmer . All rights reserved.
 //
 

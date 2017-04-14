@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CircularMenu: UIView {
+class JCircularMenu: UIView {
     
     let displayButton = UIButton()
     let circularView = UIView()
@@ -32,10 +32,10 @@ class CircularMenu: UIView {
     
     var titleArray:[String] = []
     var nameImagearray:[String] = []
-
+    
     var menuColor = UIColor(red: 41/255, green: 128/255, blue : 185/255, alpha: 1.0)
     
-    var delegate: CircularMenuDelegate?
+    var delegate: JCircularMenuDelegate?
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -130,13 +130,13 @@ class CircularMenu: UIView {
             setupButton(title: title, imageName: image, index: i)
         }
         
-//        setupButton(title: "Heel", imageName: "heel", action: #selector(actionDisplayButton))
-//        setupButton(title: "Truck", imageName: "truck", action: #selector(actionDisplayButton))
-//        setupButton(title: "Spidedfcgvhjbnjkbjr", imageName: "spider", action: #selector(actionDisplayButton))
-//        setupButton(title: "Briquegfhgvjhbnk", imageName: "brique", action: #selector(actionDisplayButton))
-//        setupButton(title: "jhbnfd", imageName: "cardio", action: #selector(actionDisplayButton))
-//        setupButton(title: "Trrduck", imageName: "path", action: #selector(actionDisplayButton))
-//        setupButton(title: "dvfgrbdfev", imageName: "medecin", action: #selector(actionDisplayButton))
+        //        setupButton(title: "Heel", imageName: "heel", action: #selector(actionDisplayButton))
+        //        setupButton(title: "Truck", imageName: "truck", action: #selector(actionDisplayButton))
+        //        setupButton(title: "Spidedfcgvhjbnjkbjr", imageName: "spider", action: #selector(actionDisplayButton))
+        //        setupButton(title: "Briquegfhgvjhbnk", imageName: "brique", action: #selector(actionDisplayButton))
+        //        setupButton(title: "jhbnfd", imageName: "cardio", action: #selector(actionDisplayButton))
+        //        setupButton(title: "Trrduck", imageName: "path", action: #selector(actionDisplayButton))
+        //        setupButton(title: "dvfgrbdfev", imageName: "medecin", action: #selector(actionDisplayButton))
         //setupButton(title: "Camembert", imageName: "camembert", action: #selector(actionDisplayButton))
         
     }
@@ -234,7 +234,7 @@ class CircularMenu: UIView {
     }
     
     func delegateMethod(_ sender: UIButton){
-        delegate?.circularMenuDidSelect(atIndex: sender.tag)
+        delegate?.jcircularMenuDidSelect(atIndex: sender.tag)
         self.actionDisplayButton()
     }
     
@@ -290,9 +290,9 @@ class CircularMenu: UIView {
         }
         
         if !displayMode {
-            delegate?.circularMenuDidOpen?()
+            delegate?.jcircularMenuDidOpen?()
         } else {
-            delegate?.circularMenuDidClose?()
+            delegate?.jcircularMenuDidClose?()
         }
         
         displayButtons()
@@ -378,13 +378,12 @@ class CircularMenu: UIView {
     
 }
 
-@objc protocol CircularMenuDelegate {
+@objc protocol JCircularMenuDelegate {
     
-    func circularMenuDidSelect(atIndex index: Int)
+    func jcircularMenuDidSelect(atIndex index: Int)
     
-    @objc optional func circularMenuDidOpen()
+    @objc optional func jcircularMenuDidOpen()
     
-    @objc optional func circularMenuDidClose()
+    @objc optional func jcircularMenuDidClose()
     
 }
-

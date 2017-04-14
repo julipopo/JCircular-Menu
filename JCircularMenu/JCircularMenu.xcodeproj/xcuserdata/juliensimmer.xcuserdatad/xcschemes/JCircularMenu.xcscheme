@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "28377ED31E7F0D74008F4022"
-               BuildableName = "CircularMenu.app"
-               BlueprintName = "CircularMenu"
-               ReferencedContainer = "container:CircularMenu.xcodeproj">
+               BlueprintIdentifier = "284232731EA1620800452BAE"
+               BuildableName = "JCircularMenu.app"
+               BlueprintName = "JCircularMenu"
+               ReferencedContainer = "container:JCircularMenu.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "28377ED31E7F0D74008F4022"
-            BuildableName = "CircularMenu.app"
-            BlueprintName = "CircularMenu"
-            ReferencedContainer = "container:CircularMenu.xcodeproj">
+            BlueprintIdentifier = "284232731EA1620800452BAE"
+            BuildableName = "JCircularMenu.app"
+            BlueprintName = "JCircularMenu"
+            ReferencedContainer = "container:JCircularMenu.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "28377ED31E7F0D74008F4022"
-            BuildableName = "CircularMenu.app"
-            BlueprintName = "CircularMenu"
-            ReferencedContainer = "container:CircularMenu.xcodeproj">
+            BlueprintIdentifier = "284232731EA1620800452BAE"
+            BuildableName = "JCircularMenu.app"
+            BlueprintName = "JCircularMenu"
+            ReferencedContainer = "container:JCircularMenu.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "28377ED31E7F0D74008F4022"
-            BuildableName = "CircularMenu.app"
-            BlueprintName = "CircularMenu"
-            ReferencedContainer = "container:CircularMenu.xcodeproj">
+            BlueprintIdentifier = "284232731EA1620800452BAE"
+            BuildableName = "JCircularMenu.app"
+            BlueprintName = "JCircularMenu"
+            ReferencedContainer = "container:JCircularMenu.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

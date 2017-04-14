@@ -1,4 +1,4 @@
-# Circular Menu
+# JCircular Menu
 
 [![Platform](https://img.shields.io/cocoapods/p/LFAlertController.svg?style=flat)](http://cocoapods.org/pods/LFAlertController)
 [![Swift Version][swift-image]][swift-url]
@@ -21,13 +21,13 @@ add the Pod `JCircularMenu` to your podfile
 - Step 1 : Initialize the menu in the ViewController class:
 
 ``` swift-3
-var circularMenu =  CircularMenu()
+var circularMenu =  JCircularMenu()
 ```
 
 - Step 2 : In the viewDidLoad, set the menu in its view, its the Color and its delegate :
 
 ``` swift-3
-circularMenu = CircularMenu(inView: view, withColor: UIColor.blue)
+circularMenu = JCircularMenu(inView: view, withColor: UIColor.blue)
 circularMenu.delegate = self
 ```
 
@@ -51,14 +51,14 @@ view.addSubview(menu)
 - Create an extension of your ViewController who conform to CircularMenuDelegate protocol, with circularMenuDidSelect function :
 
 ```  swift-3
-extension ViewController: CircularMenuDelegate {
-  func circularMenuDidSelect(atIndex index: Int) {
+extension ViewController: JCircularMenuDelegate {
+  func jcircularMenuDidSelect(atIndex index: Int) {
       //Do stuff once a button has been tapped
   }
 }
 ```
 
-- Optional : you can listen event from the menu as `circularMenuDidOpen()` and `circularMenuDidClose()`
+- Optional : you can listen event from the menu as `jcircularMenuDidOpen()` and `jcircularMenuDidClose()`
 
 
 [swift-image]:https://img.shields.io/badge/swift-3.0-orange.svg
