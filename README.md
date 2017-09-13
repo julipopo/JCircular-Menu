@@ -7,8 +7,6 @@ Circular menu interactive, customizable in color, buttons, and actions delegate!
 Available from 3 to 8 buttons.
 
 
-###### ++ Work in progress for more features ++
-
 <img src="/floader.gif" width="300px">
 
 ## Installation
